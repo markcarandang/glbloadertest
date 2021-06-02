@@ -45,7 +45,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 
 	// Set to true to enable damping (inertia)
 	// If damping is enabled, you must call controls.update() in your animation loop
-	this.enableDamping = false;
+	this.enableDamping = true;
 	this.dampingFactor = 0.25;
 
 	// This option actually enables dollying in and out; left as "zoom" for backwards compatibility.
